@@ -53,7 +53,7 @@ const userSchema= new mongoose.Schema({
     },
     photoUrl:{
         type:String,
-        default:"https://stock.adobe.com/search/images?k=default+profile+picture",
+        default:"https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg",
         validate(value){
             if(!validator.isURL(value)){
                 throw new Error("Invalid URL:" + value)
