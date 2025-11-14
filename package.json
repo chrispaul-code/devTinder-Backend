@@ -4,6 +4,7 @@
   "description": "tinder for Devlopers ",
   "main": "index.js",
   "scripts": {
+    "start":"node src/app.js",
     "dev": "nodemon src/app.js",
     "chris": "nodemon src/app.js"
   },
